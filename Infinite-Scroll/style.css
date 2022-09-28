@@ -20,6 +20,14 @@ h1 {
 }
 
 /* Loader */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
 
 .loader img {
   position: fixed;
@@ -33,6 +41,7 @@ h1 {
 }
 
 .image-container img {
+  border-radius: 10px;
   width: 100%;
   margin-top: 10px;
 }
@@ -41,7 +50,9 @@ h1 {
 
 @media screen and (max-width: 750px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .image-container {
     margin: 10px 3%;
